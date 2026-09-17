@@ -1,11 +1,13 @@
 {
   "domain": "domolan",
   "name": "Domolan",
-  "codeowners": [],
+  "codeowners": [ "@AlekseyIv89" ],
   "config_flow": true,
   "dependencies": [],
-  "documentation": "https://www.example.com",
+  "documentation": "https://github.com/AlekseyIv89/domolan-home-assistant",
+  "issue_tracker": "https://github.com/AlekseyIv89/domolan-home-assistant/issues",
   "iot_class": "cloud_polling",
+  "integration_type": "hub",
   "requirements": [],
   "version": "0.1.0"
 }
