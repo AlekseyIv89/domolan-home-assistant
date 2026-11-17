@@ -1,0 +1,37 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Domolan",
+        "description": "Введите учётные данные личного кабинета Domolan.",
+        "data": {
+          "login": "Логин",
+          "password": "Пароль",
+          "update_interval": "Интервал обновления (секунды)"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Domolan: требуется повторный вход",
+        "description": "Сессия для {login} истекла. Введите пароль.",
+        "data": { "password": "Пароль" }
+      }
+    },
+    "error": {
+      "invalid_auth": "Неверный логин или пароль.",
+      "cannot_connect": "Не удалось подключиться к серверу провайдера.",
+      "unknown": "Неизвестная ошибка. Подробности в логах Home Assistant."
+    },
+    "abort": {
+      "already_configured": "Этот аккаунт уже настроен.",
+      "reauth_successful": "Повторный вход выполнен успешно."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Настройки Domolan",
+        "data": { "update_interval": "Интервал обновления (секунды)" }
+      }
+    }
+  }
+}

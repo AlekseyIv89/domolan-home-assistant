@@ -3,8 +3,6 @@ __pycache__/
 *.py[codz]
 *$py.class
 
-.vs
-
 domolan-home-assistant.*
 
 # C extensions

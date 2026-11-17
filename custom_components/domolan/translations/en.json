@@ -1,0 +1,43 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Domolan",
+        "description": "Enter your Domolan account credentials.",
+        "data": {
+          "login": "Login",
+          "password": "Password",
+          "update_interval": "Update interval (minutes)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Unable to connect to Domolan",
+      "invalid_auth": "Invalid login or password",
+      "unknown": "Unknown error"
+    },
+    "abort": {
+      "already_configured": "This account is already configured"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Domolan options",
+        "data": {
+          "update_interval": "Update interval (minutes)"
+        }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "tariff_name": {
+        "name": "Tariff name"
+      },
+      "tariff_speed": {
+        "name": "Tariff speed"
+      }
+    }
+  }
+}

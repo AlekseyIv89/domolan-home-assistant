@@ -1,0 +1,43 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Domolan",
+        "description": "Введите данные вашей учётной записи Domolan.",
+        "data": {
+          "login": "Логин",
+          "password": "Пароль",
+          "update_interval": "Интервал обновления (минуты)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Не удалось подключиться к Domolan",
+      "invalid_auth": "Неверный логин или пароль",
+      "unknown": "Неизвестная ошибка"
+    },
+    "abort": {
+      "already_configured": "Эта учётная запись уже добавлена"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Настройки Domolan",
+        "data": {
+          "update_interval": "Интервал обновления (минуты)"
+        }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "tariff_name": {
+        "name": "Тариф"
+      },
+      "tariff_speed": {
+        "name": "Скорость"
+      }
+    }
+  }
+}
